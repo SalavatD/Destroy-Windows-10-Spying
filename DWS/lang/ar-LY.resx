@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnDeleteAllWindows10Apps" xml:space="preserve">
+    <value>حذف كل تطبيقات ويندوز 10</value>
+  </data>
+  <data name="btnDeleteOneDrive" xml:space="preserve">
+    <value>One Drive حذف </value>
+  </data>
+  <data name="btnOpenAndEditHosts" xml:space="preserve">
+    <value> HOSTS فتح و تعديل ملف</value>
+  </data>
+  <data name="btnProfessionalMode" xml:space="preserve">
+    <value>تمكين الوضع المتقدم</value>
+  </data>
+  <data name="btnRestoreSystem" xml:space="preserve">
+    <value>استعادة النظام</value>
+  </data>
+  <data name="checkBoxAddToHosts" xml:space="preserve">
+    <value>إضافة نطاقات التجسس لملف هوست و حجبها بجدار وندوز  </value>
+  </data>
+  <data name="checkBoxCreateSystemRestorePoint" xml:space="preserve">
+    <value>انشاء نقطة استعادة</value>
+  </data>
+  <data name="checkBoxDeleteWindows10Apps" xml:space="preserve">
+    <value>حذف تطبيقات ويندوز 10</value>
+  </data>
+  <data name="checkBoxDisablePrivateSettings" xml:space="preserve">
+    <value>تعطيل إعدادات الخصوصية</value>
+  </data>
+  <data name="checkBoxDisableWindowsDefender" xml:space="preserve">
+    <value>windows defender تعطيل</value>
+  </data>
+  <data name="checkBoxKeyLoggerAndTelemetry" xml:space="preserve">
+    <value>حذف التجسس وكيلوجر </value>
+  </data>
+  <data name="checkBoxSetDefaultPhoto" xml:space="preserve">
+    <value>استعادة عارض صور ويندوز</value>
+  </data>
+  <data name="checkBoxSPYTasks" xml:space="preserve">
+    <value>تعطيل مهمات التجسس</value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>اكتمل</value>
+  </data>
+  <data name="CompleteMSG" xml:space="preserve">
+    <value>اكتمل!
+مطلوب إعادة تشغيل لتعطيل كافة برامج التجسس.
+إعادة التشغيل الآن؟</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="DeleteApps" xml:space="preserve">
+    <value>حذف التطبيقات</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>تعطيل</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>تفعيل</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="ErrorMSG" xml:space="preserve">
+    <value>
+اكتمل. أخطاء - {0}
+مطلوب إعادة تشغيل لتعطيل كافة برامج التجسس.
+إعادة التشغيل الآن؟</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>معلومة</value>
+  </data>
+  <data name="labelInfoDeleteMetroApps" xml:space="preserve">
+    <value>تطبيقات وندوز تحذف نهائيا و لا يمكن استرجاعها</value>
+  </data>
+  <data name="Links" xml:space="preserve">
+    <value>روابط</value>
+  </data>
+  <data name="PressOkAndWait15" xml:space="preserve">
+    <value>اضغط موافق و انتظر 15 دقيقة</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>سؤال</value>
+  </data>
+  <data name="Really" xml:space="preserve">
+    <value>حقا؟</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>إعادة التشغيل مطلوبة. إعادة التشغيل الآن؟</value>
+  </data>
+  <data name="tabPageAbout" xml:space="preserve">
+    <value>عن</value>
+  </data>
+  <data name="tabPageMain" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="tabPageReadMe" xml:space="preserve">
+    <value>إقرأني</value>
+  </data>
+  <data name="tabPageSettings" xml:space="preserve">
+    <value>إعدادات</value>
+  </data>
+  <data name="tabPageUtilites" xml:space="preserve">
+    <value>أدوات</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>تحذير</value>
+  </data>
+  <data name="RemoveAllOldFirewallRules" xml:space="preserve">
+    <value>DWS إزالة كل قواعد الجدار الناري القديمة بواسطة</value>
+  </data>
+  <data name="ReportABug" xml:space="preserve">
+    <value>تقرير خطأ</value>
+  </data>
+  <data name="ReadMeTextBox" xml:space="preserve">
+    <value>هذا البرنامج يدمر التجسس على ويندوز 8/7/ 8.1/ 10.
+هذا البرنامج مفتوح المصدر، وهو على GitHub.
+هذا البرنامج يدمر تماما التجسس. يزيل بعض عناصر القياس ويوقف الآخر، يعطل ويندوز ديفندر ، كورتانا، وأكثر من ذلك بكثير. كتعطيل تحديث ويندوز، و الذي يمنع الكشف عن هويتك، بمنع تلقي تحديثات تحتوي على برامج تجسس جديدة.
+حذف تطبيقات جيد، لأنها تعمل في الخلفية، وتلتهم الذاكرة، ومنها مايتجسس عليك.
+أيضا، البرنامج عديد من نطاقات مايكروسوفت التي تجمع البيانات، ويضيف معظم برامج التجسس لملف هوست.
+البرنامج يقوم بهذا بشكل لا رجعة فيه، وينبغي عدم التراجع حتى بعد استعادة النظام.
+في هذه اللحظة هو البرنامج الأكثر فعالية. هذا البرنامج هو تطوير عدد كبير من مستخدمي ويندوز 10، البعض ساعد بكتابة التعليمات البرمجية لتصبح أكثر إنتاجية، والبعض ساعد بترجمة البرنامج إلى لغات أخرى.
+
+الوسيطات لسطر الأوامر:
+/lang= - تحدد لغة البرنامج. مثل: /lang=en
+/deleteapp= - لحذف تطبيق من ويندوز. مثلا: /deleteapp=bing أو /deleteapp=note
+/destroy -  لإزالة التجسس.
+هام!  /destroy و /deleteapp= لايمكن جمعها /deleteapp= و لا يمكن تكرار استخدامها.
+
+
+
+</value>
+  </data>
+  <data name="FindOffice16FileT" xml:space="preserve">
+    <value>يرجى تحديد المسار لملف msosync.exe . إذا تم تثبيت Office 2016 على محرك الأقراص C، اضغط على "إلغاء"</value>
+  </data>
+</root>
