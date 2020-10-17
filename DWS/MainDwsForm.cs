@@ -582,11 +582,21 @@ namespace DWS
                 {
                     SetRegValueHklm(@"SOFTWARE\Policies\Microsoft\Windows Defender", "DisableAntiSpyware", "1",
                         RegistryValueKind.DWord);
-                    SetRegValueHklm(@"SOFTWARE\Policies\Microsoft\Windows Defender\Spynet", "SpyNetReporting", "0",
+                    SetRegValueHklm(@"SOFTWARE\Policies\Microsoft\Windows Defender", "AllowFastServiceStartup", "0",
+                        RegistryValueKind.DWord);
+                    SetRegValueHklm(@"SOFTWARE\Policies\Microsoft\Windows Defender", "ServiceKeepAlive", "0",
+                        RegistryValueKind.DWord);
+                    SetRegValueHklm(@"SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection", "DisableRealtimeMonitoring", "1",
+                        RegistryValueKind.DWord);
+                    SetRegValueHklm(@"SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection", "DisableIOAVProtection", "1",
+                        RegistryValueKind.DWord);
+                    SetRegValueHklm(@"SOFTWARE\Policies\Microsoft\Windows Defender\Spynet", "DisableBlockAtFirstSeen", "1",
+                        RegistryValueKind.DWord);
+                    SetRegValueHklm(@"SOFTWARE\Policies\Microsoft\Windows Defender\Spynet", "LocalSettingOverrideSpynetReporting", "0",
                         RegistryValueKind.DWord);
                     SetRegValueHklm(@"SOFTWARE\Policies\Microsoft\Windows Defender\Spynet", "SubmitSamplesConsent", "2",
                         RegistryValueKind.DWord);
-                    SetRegValueHklm(@"SOFTWARE\Policies\Microsoft\MRT", "DontReportInfectionInformation", "1",
+                    SetRegValueHklm(@"SYSTEM\CurrentControlSet\Services\WinDefend", "Start", "4",
                         RegistryValueKind.DWord);
                     _OutPut("Disable Windows Defender.");
                     SetRegValueHklm(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer", "SmartScreenEnabled", "Off",
