@@ -1,4 +1,4 @@
-This repository contains the original source code for Nummer/Destroy-Windows-10-Spying as of Mar 4, 2018.
+This repository contains a fork from Nummer/Destroy-Windows-10-Spying source code as of March 4, 2018.
 
 ## [Latest Release](https://github.com/SalavatD/Destroy-Windows-10-Spying/releases/latest)
 
